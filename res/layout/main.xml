@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:id="@+id/btnSimple"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="1. [Java->Javascript] Simple example. Do something on the HTML below. (This is Android Button)"
+            android:gravity="left|center_vertical"
+            ></Button>
+
+    <Button android:id="@+id/btnCalc"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="2. [Java->Javascript->Java] Complete cycle example. Calc something and put it back to Java (This is Android Button)"
+            android:gravity="left|center_vertical"
+            ></Button>
+    <TextView android:id="@+id/myResult"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            ></TextView>
+<WebView android:id="@+id/myWebView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         ></WebView>
+</LinearLayout>
+
